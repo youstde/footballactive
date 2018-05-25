@@ -1,0 +1,46 @@
+body,#animation_container{background:#f9f3ee;height: 100%;overflow: hidden;}
+
+.music{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    z-index: 999999999;
+    background: url("../images/music.png") no-repeat ;
+}
+.music.play{
+    -webkit-animation: rotate 3s infinite linear;animation: rotate 3s infinite linear;
+}
+.netease-loader{
+    background:#413558;
+}
+.netease-loader .load_type {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 220px;
+    height: 220px;
+    margin-left: -110px;
+}
+.netease-loader .load_data{
+
+    height: 10px;
+    width: 300px;
+    background:#000;
+    top:140px;
+    left:160px;
+}
+.netease-loader .load_data2{
+    position: absolute;
+    height: 10px;
+    width: 30px;
+    top:170px;
+    left:300px;
+    color:#fff;
+}
+.netease-loader .load_data div{
+    background:#fff;
+    height: 100%;
+    width: 0px;
+}
